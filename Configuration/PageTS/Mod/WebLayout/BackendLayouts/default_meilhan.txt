@@ -1,0 +1,35 @@
+######################################################
+#### BACKENDLAYOUT: DEFAULT Meilhan    ####
+######################################################
+mod {
+    web_layout {
+        BackendLayouts {
+            default_meilhan {
+                title = Default, Meilhan
+                config {
+                    backend_layout {
+                        colCount = 6
+                        rowCount = 1
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = ContenuL
+										colPos = 1
+										colspan = 4
+                                    }
+                                     
+                                    2 {
+                                        name = Actualités
+                                        colPos = 2
+                                        colspan = 2
+                                    }
+                               
+                                }
+                            }
+                }
+                icon = EXT:bootstrap_package/Resources/Public/Images/BackendLayouts/default_subnavigation_left_3_columns.gif
+            }
+        }
+    }
+}
