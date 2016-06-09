@@ -9,6 +9,20 @@ page{
 		pagets__default_meilhan = TEXT
 		pagets__default_meilhan.value = DefaultMeilhan
 	}
+	variables{
+		#copyright
+		themeCopyright= TEXT
+		themeCopyright.value = {$page.theme.copyright.enable}
+		themeCopyrightText = COA
+		themeCopyrightText{
+			10 = TEXT
+			10{
+				data = date:U
+				strftime = %Y
+				wrap = <span>&copy; {$page.theme.copyright.text} &nbsp; |</span>
+			}
+		}		 
+	}
   }
   
     templateRootPath{
