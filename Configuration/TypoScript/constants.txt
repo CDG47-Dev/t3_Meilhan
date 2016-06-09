@@ -11,7 +11,7 @@ page{
              	cc_url = http://www.vg-agglo.com/
 				cc_title = vers le site du Val de Garonne Agglomération
 				cc_text = Val de Garonne Agglomération
-        commune_url = http://www.meilhansurgaronne.com/
+        commune_url = #
         commune_title = vers l'accueil site de Meilhan sur Garonne
         commune_text =  Meilhan sur Garonne
 	}
@@ -41,4 +41,20 @@ page{
 	theme {
 		copyright.text = <a href="http://www.cdg47.fr">CDG47</a>
 	}
+	
+	footer {
+		# Repertoire contenant les pages du pied de page
+		navdir = 
+		# Inclure ou non les pages hors menu (1 ou 0)
+		notinmenu = 1
+		# Page à exclure
+		excludelist = 133,134 
+	}
+	
+	sitemapnav{
+		# Nombre de level à prendre en compte
+		levels = 3
+		# Page à exclure
+		excludelist = 33 
+  }  
 }
