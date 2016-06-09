@@ -19,7 +19,7 @@ page{
 		
 	bienvenue {
 		msg = bienvenue sur le site officiel de la commune
-    }
+	}
 	
 	search {
 		#Renseigner ici l'Id page de recherche site:
@@ -56,5 +56,5 @@ page{
 		levels = 3
 		# Page à exclure
 		excludelist = 33 
-  }  
+  	}  
 }
