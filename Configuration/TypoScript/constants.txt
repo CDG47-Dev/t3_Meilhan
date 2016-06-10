@@ -1,8 +1,8 @@
 page{
 	fluidtemplate{
-		templateRootPath = EXT:meilhan/Resources/Private/Templates/Page/
-		layoutRootPath = EXT:meilhan/Resources/Private/Layouts/Page/
-		partialRootPath = EXT:meilhan/Resources/Private/Partials/Page/
+		templateRootPath = EXT:t3_meilhan/Resources/Private/Templates/Page/
+		layoutRootPath = EXT:t3_meilhan/Resources/Private/Layouts/Page/
+		partialRootPath = EXT:t3_meilhan/Resources/Private/Partials/Page/
 	
 	}
 	bandeau = 1
