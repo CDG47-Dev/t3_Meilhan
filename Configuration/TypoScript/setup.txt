@@ -186,3 +186,14 @@ page{
 	   show.LxALLtypes = 0
 	   show.resultNumber = 1
 	}
+		  
+	##########################################
+	### BOOTSTRAP PACKAGE CONTENT ELEMENTS ###
+	##########################################
+	plugin.bootstrap_package_contentelements {
+		view{
+		   templateRootPath = EXT:meilhan/Resources/Private/Templates/ContentElements/
+		   layoutRootPath = EXT:meilhan/Resources/Private/Layouts/ContentElements/
+		   partialRootPath  = EXT:meilhan/Resources/Private/Partials/ContentElements/
+		}
+	}
