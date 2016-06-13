@@ -62,6 +62,13 @@ page{
 		1 = EXT:t3_meilhan/Resources/Private/Partials/Page/
 		2 = {$page.fluidtemplate.partialRootPath}
     }
+    
+    includeCSS {
+		gabarit = EXT:t3_cancon/Resources/Public/Less/gabarit.less
+		gabarit.title = CSS
+		
+    }
+    
 }
 	#bienvenue
 	lib.bienvenue= TEXT
