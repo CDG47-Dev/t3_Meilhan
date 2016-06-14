@@ -62,6 +62,13 @@ page{
 		1 = EXT:t3_meilhan/Resources/Private/Partials/Page/
 		2 = {$page.fluidtemplate.partialRootPath}
     }
+    
+    includeCSS {
+		gabarit = EXT:t3_cancon/Resources/Public/Less/gabarit.less
+		gabarit.title = CSS
+		
+    }
+    
 }
 	#bienvenue
 	lib.bienvenue= TEXT
@@ -75,7 +82,7 @@ page{
 	lib.localisation.value(
 		<li>
 		  <a target="_blank" title="vers le site de l'Union européenne" href="http://europa.eu/index_fr.htm">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="Europe"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="Europe"></i>
 			<span class="hidden-sm hidden-xs">
 			  Europe
 			</span>
@@ -83,7 +90,7 @@ page{
 		</li>
 		<li>
 		  <a target="_blank" title="vers le site France.fr" href="http://www.france.fr">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="France"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="France"></i>
 			<span class="hidden-sm hidden-xs">
 			  France
 			</span>
@@ -91,7 +98,7 @@ page{
 		</li>
 		<li>
 		  <a target="_blank" title="vers le site du Conseil Régional d'Aquitaine-Limousin-Poitou-Charentes" href="http://laregion-alpc.fr/">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="Aquitaine-Limousin-Poitou-Charentes"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="Aquitaine-Limousin-Poitou-Charentes"></i>
 			<span class="hidden-sm hidden-xs">
 			  ALPC
 			</span>
@@ -99,7 +106,7 @@ page{
 		</li>
 		<li>
 		  <a target="_blank" title="vers le site du Conseil Départemental de Lot et Garonne" href="http://www.lotetgaronne.fr/">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="Lot-et-Garonne"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="Lot-et-Garonne"></i>
 			<span class="hidden-sm hidden-xs">
 			  Lot et Garonne
 			</span>
@@ -107,7 +114,7 @@ page{
 		</li>
 		<li>
 		  <a target="_blank" title="{$page.localisation.cc_title}" href="{$page.localisation.cc_url}">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="{$page.localisation.cc_text}"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="{$page.localisation.cc_text}"></i>
 			<span class="hidden-sm hidden-xs">
 			  {$page.localisation.cc_text}
 			</span>
@@ -115,7 +122,7 @@ page{
 		</li>
 		<li>
 		  <a title="{$page.localisation.commune_title}" href="{$page.localisation.commune_url}">
-			<i title="" class="glyphicon glyphicon-globe" data-original-title="{$page.localisation.commune_text}"></i>
+			<i title="" class="glyphicon glyphicon-menu-right" data-original-title="{$page.localisation.commune_text}"></i>
 			<span class="hidden-sm hidden-xs">
 			  {$page.localisation.commune_text}
 			</span>
