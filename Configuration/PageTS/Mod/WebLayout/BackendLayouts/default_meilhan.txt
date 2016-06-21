@@ -15,7 +15,7 @@ mod {
                                 columns {
                                     1 {
                                         name = ContenuL
-										colPos = 1
+										colPos = 0
 										colspan = 4
                                     }
                                      

@@ -1,7 +1,7 @@
 plugin.bootstrap_package {
     settings {
         less {
-              navbar-gradient1 = rgb(0, 153, 51) 
+              navbar-gradient1 = rgb(0, 153, 51)
               navbar-gradient2 = rgb(115, 207, 124)
               font-size-base = 14px
               navbar-height = 30px
